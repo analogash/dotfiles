@@ -14,7 +14,7 @@ set $mod Mod4
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 #font pango:monospace 11
-font pango:SourceCodePro-Bold 13
+font pango:Source Code Pro, Bold 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -189,7 +189,7 @@ bindsym $mod+r mode "resize"
 #bar {
 #        status_command i3status
 #}
-exec_always --no-startup-id picom --backend glx -b -f 
+exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf 
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Wallpaper
@@ -197,9 +197,9 @@ exec_always --no-startup-id feh --randomize --bg-fill ~/wallpapers/purple/
 
 # Colours
 # class                 border  backgr. text    indicator child_border
-client.focused          #57495C #57495C #CFC1A1 #2e9ef4   #57495C
+client.focused          #57495C #5F4A66 #CFC1A1 #2e9ef4   #57495C
 client.focused_inactive #151219 #493b4e #CFC1A1 #484e50   #151219 
-client.unfocused        #36293a #3d3042 #888888 #292d2e   #36293a
+client.unfocused        #36293a #3d3042 #9C9179 #292d2e   #36293a
 client.urgent           #2f343a #900000 #CFC1A1 #900000   #900000
 client.placeholder      #000000 #0c0c0c #CFC1A1 #000000   #0c0c0c
 
