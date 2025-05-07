@@ -198,8 +198,8 @@ exec_always --no-startup-id feh --randomize --bg-fill ~/wallpapers/purple/
 # Colours
 # class                 border  backgr. text    indicator child_border
 client.focused          #57495C #57495C #CFC1A1 #2e9ef4   #57495C
-client.focused_inactive #151219 #151219 #CFC1A1 #484e50   #151219 
-client.unfocused        #36293a #36293a #888888 #292d2e   #36293a
+client.focused_inactive #151219 #493b4e #CFC1A1 #484e50   #151219 
+client.unfocused        #36293a #3d3042 #888888 #292d2e   #36293a
 client.urgent           #2f343a #900000 #CFC1A1 #900000   #900000
 client.placeholder      #000000 #0c0c0c #CFC1A1 #000000   #0c0c0c
 
