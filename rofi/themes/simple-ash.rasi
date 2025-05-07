@@ -1,19 +1,20 @@
 * {
   font:   "SourceCodePro-Regular 11";
 
-  bg0     : #201828;
-  bg1     : #2C1A38;
+  bg0     : #291A29;
+  bg1     : #2f1d2e;
   bg2     : #332041;
-  bg3     : #5A3D70;
+  bg3     : #5f4a66;
   fg0     : #CFC1A1;
   fg1     : #a9b1d6;
   fg2     : #886b93;
-  red     : #886b93;
+  red     : #5F4A66;
   green   : #9ece6a;
   yellow  : #e0af68;
   blue    : #7aa2f7;
   magenta : #9a7ecc;
   cyan    : #4abaaf;
+  white   : #FFFFFF;
 
   accent: @red;
   urgent: @yellow;
@@ -92,7 +93,7 @@ element alternate active {
 }
 
 element selected {
-  text-color       : @bg1;
+  text-color       : @white;
   background-color : @accent;
 }
 
